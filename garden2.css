@@ -1,0 +1,118 @@
+body {
+	background-image: url(gif1.gif);
+	font-family: 'Lucida Grande','Lucida Sans Unicode',arial,verdana,sans-serif;
+	width: 100%;
+	color: white;
+}
+
+div.page-wrapper {	
+	margin-top: 0;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+*:not(header) {
+	border-radius: 12px;
+	padding: 5px;
+	font-size: 95%;	
+}
+
+header {
+	background-image: url(titin.jpg);
+	width: 695px;
+	height: 347px;
+	color: white;
+	text-align: right;
+	margin-top: -30px;
+	background-color: black;
+	background-position: top center;
+	line-height: -3.1;
+}
+
+h1 {
+	font-family: 'Marck Script', cursive;
+	font-size: 70px;
+	padding-top: 5px;
+	word-spacing: -3px;
+	margin-left: 450px;
+	text-shadow: 1px 1px 2px;
+	display: transparent;
+	color: white;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 17px;
+	letter-spacing: -1px;
+	word-spacing: -5px;
+	margin-top: -50px;
+}
+
+
+div {
+	margin-top: 15px;
+}
+
+
+#zen-summary, .wrapper {
+	background-color: #A778FF;
+	color: #FF9BE5;
+	float: left;
+	width: 150px;
+	clear: left;
+	margin-top: 15px;
+}
+
+a {	
+	text-decoration: none;
+	display:inline-block;
+	word-spacing: -2px;
+}
+
+ul {	
+	list-style-type: none;
+}
+
+#zen-summary {
+	text-align: center;
+	padding: 0 0 0 5px;
+}
+
+#zen-preamble, .explanation, .participation, .benefits, .requirements {
+	background-color: #FF9BE5;
+	color: #8E2AFF;
+	float: rigth;
+	width: 520px;
+	clear: rigth;
+	margin-left: 165px;
+}
+
+
+div > h3 {
+	font-family: 'Clicker Script', cursive;
+	text-transform: uppercase;
+}
+/*
+h3::before {
+	<img src=".huellita.png" alt="Botón de 	acceso" width="34" height="30"/>
+}*/
+
+.explanation {
+	margin-top: -8px;
+}
+
+.wrapper:not(footer){
+	margin-top: -1575px;
+	text-align: left;
+	padding: 0 0 0 5px;
+}
+
+footer {
+	width:685px;
+	height:35px;
+    background: #78BCFF;
+	text-align: center;
+	word-spacing: 90px;
+	margin-top: 20px;
+}

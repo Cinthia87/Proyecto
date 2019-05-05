@@ -1,0 +1,32 @@
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+</head>
+<body><!--El atributo de action define la acción a realizar cuando se envía
+el formulario:  -->
+<form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+<!--  <form name="datos" action="RodriguezC_05_07_03.php" target="_self" method="POST"> -->
+<!--$_SERVER["PHP_SELF"]. La informacion del formulario nos la envía a nosotros mismo para validarlo.-->
+	<h2>EJERCICIO 05-07-03. REGISTRO DE USUARIOS EN PHP</h2>
+	<p><span class="error">* Campo obligatorio</span></p>
+	<br><br>
+	<!--cachito de php --La parte php no se vee solo se envia el html al cliente-->
+	Nick de usuario: <input type="text" name="nick">
+	<span class="error">* <?php echo $nameErr;?></span> <!--span=div pero en una linea. -->
+	<br><br>
+	
+	Nombre de usuario: <input type="text" name="nombre">
+	<span class="error">* <?php echo $nameErr1;?></span> <!--span=div pero en una linea. -->
+	<br><br>
+	
+	Apellidos: <input type="text" name="ape">
+	<span class="error">* <?php echo $nameErr2;?></span> <!--span=div pero en una linea. -->
+	<br><br>
+	
+	Telefono: <input type="text" name="tel">
+	<!-- <span class="error">* <?php echo $nameErr3;?></span> <!--span=div pero en una linea. -->
+	<br><br>
+	<input type="submit" value="Enviar">
+</form>
+</body>
+</html> 

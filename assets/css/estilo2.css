@@ -1,0 +1,118 @@
+* {
+	-webkit-box-sizing: border-box;	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;		
+}
+
+html, body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	margin-top: -10px;
+	color:#eee;
+	background-color: black;	
+}
+
+#portada {
+	margin: 0px;
+	background-image: url(gif1.gif);
+	background-repeat: repeat-x;
+}
+
+.contenido{	
+	font-family: "texGyreAdventor", sans-serif;	
+	min-width: 801px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 20px;	
+}
+
+
+#cabecera {	
+	color: white;
+	width: 100%;
+	float: left;
+	font-family: 'Dancing Script', cursive;
+}
+
+#tres{  
+	width: 60%;	
+	float: left;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+
+a {
+	text-decoration: none; 
+	color: white;
+}
+
+#uno, #dos, #cuatro, #cinco {
+	width: 10%;
+	float: left;
+	font-size: 17px;
+	letter-spacing: -1px;
+	word-spacing: -5px;
+	color: white;
+	padding: 5px 5px 5px 20px;
+}
+
+.bloque3{
+	background-color: #FFFFFF;
+	width: 104.3%;
+	margin-left: -28px;
+	overflow-x: hidden;  /*Ocultar desbordamientos horizontales*/
+	height: auto;
+}
+
+#subtitulo {
+	margin-top: 50px;
+	text-align: left;
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	margin-left: -73%;
+}
+
+.columnas {
+	text-align: center;
+	display: flex;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.bloque3 h3 {
+	color: gray;
+	text-align: center;
+}
+
+.columnas .columna h2{
+	color: gray;
+	font-size: 18px;
+}
+
+.columnas .columna {
+	width: 20%;
+	color:black;
+	font-size: 15px;
+	text-align: left;
+	margin-right: 20px;
+}
+
+.columnas .imagen{
+	margin-left: 30px;
+	width: 20%;
+}
+
+footer {
+	background: #FFFFFF;
+	margin-top: 100px;
+	width: 100%;
+	height:150px;
+	word-spacing: 90px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+}
